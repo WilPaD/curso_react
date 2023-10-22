@@ -14,7 +14,6 @@ function App() {
       .then(resul => {
         const { results } = resul.data
         setCharacter(results)
-        console.log(results)
       })
       .catch(err => {
         console.log(err)
